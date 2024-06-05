@@ -131,8 +131,8 @@ from langchain.vectorstores import DocArrayInMemorySearch
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import requests
 
-st.set_page_config(page_title="LangChain: Chat with Documents", page_icon="🦜")
-st.title("🦜 LangChain: Chat with Documents")
+st.set_page_config(page_title="LangChain: Chat with Documents", page_icon="🪄")
+st.title("🪄 Enchanted Query")
 
 
 @st.cache_resource(ttl="1h")
@@ -203,8 +203,8 @@ if not openai_api_key:
     st.stop()
 
 file_urls = [
-    "https://example.com/document1.pdf",
-    "https://example.com/document2.pdf"
+    "https://github.com/manjunath5496/Harry-Potter-Book-Series/blob/master/hpo(8).pdf",
+    "https://github.com/manjunath5496/Harry-Potter-Book-Series/blob/master/hpo(1).pdf"
 ]
 retriever = configure_retriever(file_urls)
 
