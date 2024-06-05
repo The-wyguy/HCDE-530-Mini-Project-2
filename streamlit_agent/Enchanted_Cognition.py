@@ -84,8 +84,9 @@ if not openai_api_key:
     st.stop()
 
 file_urls = [
-    "https://github.com/manjunath5496/Harry-Potter-Book-Series/blob/master/hpo(8).pdf",
-    "https://github.com/manjunath5496/Harry-Potter-Book-Series/blob/master/hpo(1).pdf"
+    "https://kalyankrishna4886.wordpress.com/wp-content/uploads/2013/09/harry-potter-book-collection-1-4.pdf",
+    "https://afgjilibrary.wordpress.com/wp-content/uploads/2020/05/hp5-harry-potter-and-the-order-of-the-phoenix.pdf",
+    "https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/6harry-potter-and-the-half-blood-prince-1.pdf"
 ]
 retriever = configure_retriever(file_urls)
 
